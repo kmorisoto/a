@@ -5,6 +5,9 @@
   ],
   "packageRules": [
     {
+      "matchDatasources": ["gradle-version"]
+    },
+    {
       "matchPackageNames": ["org.springframework.boot:spring-boot-dependencies"],
       "groupName": "Spring Boot Dependencies",
       "enabled": true
