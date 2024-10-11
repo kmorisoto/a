@@ -3,9 +3,9 @@
   "extends": [
     "config:recommended"
   ],
+  "enabledManagers": ["gradle", "dockerfile"],
   "packageRules": [
     {
-      "matchDatasources": ["gradle"],
       "matchPackageNames": ["org.springframework.boot:spring-boot-dependencies"],
       "groupName": "Spring Boot Dependencies",
       "enabled": true
