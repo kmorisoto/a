@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "enabledManagers": ["gradle", "npm"],
+  "enabledManagers": ["gradle"],
   "packageRules": [
     {
       "matchPackageNames": ["org.springframework.boot:spring-boot-dependencies"],
