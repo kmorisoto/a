@@ -9,7 +9,8 @@
       "matchPackageNames": [
         "org.springframework.boot",
         "org.springframework.boot:**",
-        "org.springframework.boot:spring-boot-dependencies"
+        "org.springframework.boot:spring-boot-dependencies",
+        "io.spring.dependency-management"
       ],
       "groupName": "Spring Boot Dependencies",
       "enabled": true
