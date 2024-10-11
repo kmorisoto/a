@@ -6,7 +6,11 @@
   "enabledManagers": ["gradle", "dockerfile"],
   "packageRules": [
     {
-      "matchPackageNames": ["org.springframework.boot:spring-boot-dependencies"],
+      "matchPackageNames": [
+        "org.springframework.boot",
+        "org.springframework.boot:**",
+        "org.springframework.boot:spring-boot-dependencies"
+      ],
       "groupName": "Spring Boot Dependencies",
       "enabled": true
     },
