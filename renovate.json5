@@ -4,16 +4,15 @@
     "config:recommended"
   ],
   "enabledManagers": ["gradle", "dockerfile"],
-  "dockerfile": {
-    "fileMatch": [
-      "^/a/docker/Dockerfile$",
-    ]
-  },
   "packageRules": [
     {
       "matchPackageNames": ["org.springframework.boot:spring-boot-dependencies"],
       "groupName": "Spring Boot Dependencies",
       "enabled": true
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["nginx"],
     }
   ]
 }
