@@ -3,7 +3,12 @@
   "extends": [
     "config:recommended"
   ],
-  "enabledManagers": ["gradle"],
+  "enabledManagers": ["gradle", "dockerfile"],
+  "dockerfile": {
+    "fileMatch": [
+      "^/docker/Dockerfile$",
+    ]
+  },
   "packageRules": [
     {
       "matchPackageNames": ["org.springframework.boot:spring-boot-dependencies"],
