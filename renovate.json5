@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "enabledManagers": ["gradle", "dockerfile"],
+  "enabledManagers": ["gradle", "dockerfile", "npm"],
   "packageRules": [
     {
       "matchPackageNames": [
